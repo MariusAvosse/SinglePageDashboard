@@ -1,4 +1,5 @@
 <template>
+<HeroSection/>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
@@ -33,11 +34,13 @@
 </template>
 
 <script>
+import HeroSection from './HeroSection.vue';
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+    name: "HelloWorld",
+    props: {
+        msg: String
+    },
+    components: { HeroSection }
 }
 </script>
 
