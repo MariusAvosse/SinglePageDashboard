@@ -39,7 +39,7 @@
             <router-link to="/HelloWorld" class="navbar-brand"> Enseignants</router-link>
             <router-link to="/HelloWorld" class="navbar-brand"> Structurelles</router-link>
             <router-link to="/HelloWorld" class="navbar-brand"> Actualités</router-link>
-            <router-link to="/HelloWorld" class="navbar-brand"> Images</router-link>
+            <router-link to="/HelloWorld" class="navbar-brand"> Imagess</router-link>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
                 aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
