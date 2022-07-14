@@ -99,8 +99,8 @@
                     <div class="contact_info_content">
                       <div class="contact_info_text">+91 9876 543 2198</div>
                     </div>
-
                   </div>
+
                   <div class="cont1">
                     <div class="contact_info_image"><img
                         src="https://img.icons8.com/ultraviolet/70/000000/filled-message.png" alt=""></div>
@@ -115,8 +115,17 @@
                     <div class="contact_info_content">
                       <div class="contact_info_text">298,Menlo Park,CA,USA</div>
                     </div>
-
                   </div>
+
+                  <div class="cont1">
+                    <div class="contact_info_image"><img src="https://img.icons8.com/office/70/000000/iphone.png"
+                        alt="">
+                    </div>
+                    <div class="contact_info_content">
+                      <div class="contact_info_text">+91 9876 543 2198</div>
+                    </div>
+                  </div>
+                
                 </div>
               </div>
             </div>
@@ -128,7 +137,33 @@
         <label for="tab-5">Contact</label>
 
         <div class="season_content">
-          <span>Contact</span>
+          <h3>Contact</h3>
+            <div class="container contact-form">
+              <hr class="featurette-divider">
+            <form >
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Nom*" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Email*" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Objet*" value="" />
+                        </div>
+                        <div class="form-group" id="momo">
+                            <input type="submit" class="btn btn-info btn-lg px-4 me-sm-3 fw-bold" value="Envoyer" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Message*" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -217,5 +252,22 @@ export default {
 
 [type=radio]:checked~label~.season_content {
   z-index: 1;
+}
+
+.contact-form{
+    background: #fff;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+#momo{
+     width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+
 }
 </style>
