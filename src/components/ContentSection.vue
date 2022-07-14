@@ -1,6 +1,8 @@
 <template>
   <!-- Sidebar -->
   <HeroSection />
+
+<section>
   <div class="container">
     <div class="season_tabs">
 
@@ -10,6 +12,7 @@
 
         <div class="season_content">
           <h3>Historique </h3>
+          <hr class="featurette-divider">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
@@ -34,6 +37,7 @@
 
         <div class="season_content">
           <h3>Description</h3>
+          <hr class="featurette-divider">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
@@ -86,6 +90,7 @@
         <div class="season_content">
           <h3>Coordonnées</h3>
           <div class="contact_info">
+            <hr class="featurette-divider">
             <div class="container">
               <div class="row">
                 <div class="col-md-12" id="contact">
@@ -93,30 +98,39 @@
                   <!-- Contact Item -->
 
                   <div class="cont1">
-                    <div class="contact_info_image"><img src="https://img.icons8.com/office/70/000000/iphone.png"
+                    <div class="contact_info_image"><img src="https://img.icons8.com/office/50/000000/iphone.png"
                         alt="">
                     </div>
                     <div class="contact_info_content">
-                      <div class="contact_info_text">+91 9876 543 2198</div>
-                    </div>
-
-                  </div>
-                  <div class="cont1">
-                    <div class="contact_info_image"><img
-                        src="https://img.icons8.com/ultraviolet/70/000000/filled-message.png" alt=""></div>
-                    <div class="contact_info_content">
-                      <div class="contact_info_text">contact@bbbootstrap.com</div>
+                      <div class="contact_info_text"> +228 90 00 00 00 / +228 79 00 00 00 </div>
                     </div>
                   </div>
 
                   <div class="cont1">
                     <div class="contact_info_image"><img
-                        src="https://img.icons8.com/ultraviolet/70/000000/map-marker.png" alt=""></div>
+                        src="https://img.icons8.com/ultraviolet/50/000000/filled-message.png" alt=""></div>
                     <div class="contact_info_content">
-                      <div class="contact_info_text">298,Menlo Park,CA,USA</div>
+                      <div class="contact_info_text"> ifoschool@gmail.com</div>
                     </div>
-
                   </div>
+
+                  <div class="cont1">
+                    <div class="contact_info_image"><img
+                        src="https://img.icons8.com/ultraviolet/50/000000/map-marker.png" alt=""></div>
+                    <div class="contact_info_content">
+                      <div class="contact_info_text"> 28 Rue, Tokoin casablana</div>
+                    </div>
+                  </div>
+
+                  <div class="cont1">
+                    <div class="contact_info_image"><img src="https://img.icons8.com/office/50/000000/iphone.png"
+                        alt="">
+                    </div>
+                    <div class="contact_info_content">
+                      <div class="contact_info_text"> +228 90 00 00 00 / +228 79 00 00 00 </div>
+                    </div>
+                  </div>
+                
                 </div>
               </div>
             </div>
@@ -128,11 +142,38 @@
         <label for="tab-5">Contact</label>
 
         <div class="season_content">
-          <span>Contact</span>
+          <h3>Contact</h3>
+            <div class="container contact-form">
+              <hr class="featurette-divider">
+            <form >
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Nom*" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Email*" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Objet*" value="" />
+                        </div>
+                        <div class="form-group" id="momo">
+                            <input type="submit" class="btn btn-info btn-lg px-4 me-sm-3 fw-bold" value="Envoyer" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Message*" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</section>  
   <!-- Sidebar -->
 </template>
 
@@ -156,18 +197,7 @@ export default {
 
 }
 
-.cont1 {
-  display: flex;
-}
 
-#contact{
-  display: flex;
-    flex-direction: column;
-}
-
-.contact_info_text{
-  font-size: 25px;
-}
 .season_tab {
   float: left;
   clear: both;
@@ -217,5 +247,34 @@ export default {
 
 [type=radio]:checked~label~.season_content {
   z-index: 1;
+}
+
+.cont1 {
+  display: flex;
+}
+
+#contact{
+  display: flex;
+    flex-direction: column;
+}
+
+.contact_info_text{
+  font-size: 25px;
+}
+.contact-form{
+    background: #fff;
+    width: 80%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+#momo{
+     width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+
 }
 </style>
