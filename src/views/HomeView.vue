@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <ContentSection/>
+    <HeroSection/>
+   
   </div>
 </template>
 
@@ -8,12 +9,12 @@
 // @ is an alias to /src
 
 
-import ContentSection from '../components/ContentSection.vue'
+import HeroSection from '@/components/HeroSection.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    ContentSection
+    HeroSection
 }
 }
 </script>

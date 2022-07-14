@@ -1,12 +1,16 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
-</template>
+    <router-link to="/about">About</router-link> |
+     <router-link to="/generalites">gen</router-link>
+  </nav> -->
 
-<style>
+  <router-view></router-view>
+</template>
+<script>
+
+</script>
+<style Scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +21,7 @@
 
 nav {
   padding: 30px;
+
 }
 
 nav a {
