@@ -160,14 +160,15 @@ export default {
   display: flex;
 }
 
-#contact{
+#contact {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
-.contact_info_text{
+.contact_info_text {
   font-size: 25px;
 }
+
 .season_tab {
   float: left;
   clear: both;
