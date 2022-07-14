@@ -38,7 +38,7 @@
             <router-link to="/HelloWorld" class="navbar-brand"> Academiques</router-link>
             <router-link to="/HelloWorld" class="navbar-brand"> Enseignants</router-link>
             <router-link to="/HelloWorld" class="navbar-brand"> Structurelles</router-link>
-            <router-link to="/HelloWorld" class="navbar-brand"> Actualités</router-link>
+            <router-link to="/actualite" class="navbar-brand"> Actualités</router-link>
             <router-link to="/HelloWorld" class="navbar-brand"> Imagess</router-link>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"

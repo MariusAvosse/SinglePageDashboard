@@ -1,4 +1,5 @@
 import ContentSection from '@/components/ContentSection.vue'
+import Actualite from '@/components/Actualite.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 
 import { createRouter, createWebHashHistory } from 'vue-router'
@@ -14,6 +15,11 @@ const routes = [
     path: '/generalites',
     name: 'generalites',
     component: ContentSection
+  },
+  {
+    path: '/actualite',
+    name: 'actualite',
+    component: Actualite
   },
 
   {
