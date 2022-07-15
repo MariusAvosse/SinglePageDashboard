@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <HeroSection/>
-   
+    <ContentSection/>
   </div>
 </template>
 
@@ -10,11 +10,13 @@
 
 
 import HeroSection from '@/components/HeroSection.vue'
+import ContentSection from '@/components/ContentSection.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HeroSection
+    HeroSection,
+    ContentSection
 }
 }
 </script>

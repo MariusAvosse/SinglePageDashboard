@@ -57,10 +57,11 @@
             </div>
         </div>
     </div>
-</template>
 
+</template>
 <script>
 import HeroSection from './HeroSection.vue';
+
 
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
@@ -70,4 +71,5 @@ export default {
 </script>
 
 <style>
+
 </style>
