@@ -1,5 +1,6 @@
 <template>
     <HeroSection />
+    
     <h1>Galerie photo</h1>
     <div class="album py-5 bg-light">
         <div class="container">
@@ -122,15 +123,16 @@
         </div>
     </div>
 
-
+    <Partenaires/>
 </template>
 
 <script>
 import HeroSection from './HeroSection.vue';
+import Partenaires from './Partenaires.vue';
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Images",
-    components: { HeroSection }
+    components: { HeroSection, Partenaires }
 }
 </script>
 
