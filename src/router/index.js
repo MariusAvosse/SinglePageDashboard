@@ -1,6 +1,7 @@
 import ContentSection from '@/components/ContentSection.vue'
 import Actualite from '@/components/Actualite.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import Structurel from '@/components/Structurel.vue'
 
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
@@ -15,6 +16,11 @@ const routes = [
     path: '/generalites',
     name: 'generalites',
     component: ContentSection
+  },
+  {
+    path: '/structurel',
+    name: 'structurel',
+    component: Structurel
   },
   {
     path: '/actualite',
