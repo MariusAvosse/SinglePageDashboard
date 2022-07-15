@@ -1,6 +1,7 @@
 import ContentSection from '@/components/ContentSection.vue'
 import Actualite from '@/components/Actualite.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import Images from '@/components/Images.vue'
 import Structurel from '@/components/Structurel.vue'
 import Academique from '@/components/Academique.vue'
 
@@ -33,7 +34,11 @@ const routes = [
     name: 'actualite',
     component: Actualite
   },
-
+  {
+    path: '/Images',
+    name: 'Images',
+    component: Images
+  },
   {
     path: '/HelloWorld',
     name: 'HelloWorld',
