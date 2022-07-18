@@ -3,6 +3,7 @@ import Actualite from '@/components/Actualite.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import Images from '@/components/Images.vue'
 import Structurel from '@/components/Structurel.vue'
+import Enseignant from '@/components/Enseignant.vue'
 
 
 import { createRouter, createWebHashHistory } from 'vue-router'
@@ -29,6 +30,13 @@ const routes = [
     name: 'actualite',
     component: Actualite
   },
+
+  {
+    path: '/Enseignant',
+    name: 'Enseignant',
+    component: Enseignant
+  },
+
   {
     path: '/Images',
     name: 'Images',
