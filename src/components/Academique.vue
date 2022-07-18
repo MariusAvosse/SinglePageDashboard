@@ -211,15 +211,17 @@
     </div>
   </div>
 </section>  
+<Partenaires/>
   <!-- Academique -->
 </template>
 
 <script>
 import HeroSection from './HeroSection.vue';
+import Partenaires from './Partenaires.vue';
 
 export default {
   name: "ContentSection",
-  components: { HeroSection }
+  components: { HeroSection, Partenaires }
 }
 
 </script>

@@ -1,5 +1,6 @@
 <template>
     <HeroSection />
+    
     <section>
         <div class="container">
             <div class="season_tabs">
@@ -173,15 +174,17 @@
             </div>
         </div>
     </section>
+    <Partenaires/>
 
 </template>
 
 <script>
 import HeroSection from './HeroSection.vue';
+import Partenaires from './Partenaires.vue';
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Enseignant",
-    components: { HeroSection }
+    components: { HeroSection, Partenaires }
 }
 </script>
 

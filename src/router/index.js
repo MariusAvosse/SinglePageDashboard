@@ -27,9 +27,6 @@ const routes = [
     name: 'structurel',
     component: Structurel
   },
-  
-  
-  
   {
     path: '/actualite',
     name: 'actualite',
