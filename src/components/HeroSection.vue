@@ -15,7 +15,7 @@
             </div>
 
             <div class="col-lg-4 " id="btncont">
-                <p><a class="btn btn-lg btn-primary" href="#">
+                <p><a class="btn btn-lg btn-primary" href="#"> 
                         <svg xmlns="http://www.w3.org/2000/svg" id="iconsvg" width="25" height="25" fill="currentColor"
                             class="bi bi-whatsapp" viewBox="0 0 16 16">
                             <path

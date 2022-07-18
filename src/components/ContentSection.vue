@@ -2,6 +2,7 @@
   <!-- Sidebar -->
   <HeroSection />
 
+
 <section>
   <div class="container">
     <div class="season_tabs">
@@ -175,14 +176,16 @@
   </div>
 </section>  
   <!-- Sidebar -->
+  <Partenaires/>
 </template>
 
 <script>
 import HeroSection from './HeroSection.vue';
+import Partenaires from './Partenaires.vue';
 
 export default {
   name: "ContentSection",
-  components: { HeroSection }
+  components: { HeroSection, Partenaires }
 }
 
 </script>

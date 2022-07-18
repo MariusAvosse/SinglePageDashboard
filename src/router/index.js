@@ -5,6 +5,7 @@ import Images from '@/components/Images.vue'
 import Structurel from '@/components/Structurel.vue'
 import Academique from '@/components/Academique.vue'
 
+
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -39,19 +40,20 @@ const routes = [
     name: 'Images',
     component: Images
   },
+
+
+
   {
     path: '/HelloWorld',
     name: 'HelloWorld',
     component: HelloWorld
   },
+
   
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import('../views/AboutView.vue')
   },
   
 ]
